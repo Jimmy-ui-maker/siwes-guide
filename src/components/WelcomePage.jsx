@@ -3,15 +3,15 @@ import Link from "next/link";
 export default function WelcomePage() {
   return (
     <section
-      className="gadmin w-100 vh-100 d-flex flex-column justify-content-center align-items-center"
+      className="welcomePage w-100 vh-100 d-flex flex-column justify-content-center align-items-center"
     >
       <div className="container text-center">
         <img
           data-aos="fade-up"
           data-aos-delay="200"
-          src="/siwes/suzi.jpg"
+          src="/siwes/logo.png"
           alt="siwes-logo"
-          width={200}
+          width={250}
           height={170}
           className="  rounded-2"
         />

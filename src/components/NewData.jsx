@@ -32,7 +32,7 @@ const NewSiwes = () => {
     }
   }
   return (
-    <section className="addOrg w-100 vh-100 d-flex flex-column justify-content-center align-items-center">
+    <section className="allForms w-100 vh-100 d-flex flex-column justify-content-center align-items-center">
       <div className="container ">
         <div className="row justify-content-center">
           <div className="col-lg-12">

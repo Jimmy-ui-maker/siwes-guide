@@ -5,7 +5,7 @@ export default function page() {
   return (
     <section
       id="logbooks"
-      className="maincard d-flex flex-column justify-content-center align-items-center"
+      className="maincard pb-4 d-flex flex-column justify-content-center align-items-center"
     >
       <div className="container">
         <div className="row text-center justify-content-center align-items-center">
@@ -22,7 +22,7 @@ export default function page() {
                       Click on read more to see all the forms of siwes an to go
                       about them, i.e filling and where ti submit them.
                     </h4>
-                    <Link href={""} className="btn border-0 mb-2">
+                    <Link href={"/logbooks/forms"} className="btn border-0 mb-2">
                       Read More
                     </Link>
                   </div>
@@ -45,7 +45,7 @@ export default function page() {
                 <div className="row justify-content-center align-items-center">
                   <div className="col-md-6 text-start">
                     <h4>Log Book simply means,</h4>
-                    <Link href={""} className="btn border-0 mb-2">
+                    <Link href={"/logbooks/forms"} className="btn border-0 mb-2">
                       Read More
                     </Link>
                   </div>

@@ -4,13 +4,13 @@ export default function Navbar() {
     <nav className="navbar navbar-expand-md shadow-sm py-1">
       <div className="container">
         <img
-          src="/siwes/suzi.jpg"
+          src="/siwes/logo.png"
           className=" rounded-2"
-          width={30}
-          height={30}
+          width={50}
+          height={40}
           alt=""
         />
-        <a href="/adams" className="navbar-brand fw-bolder text-uppercase">
+        <a href="/" className="navbar-brand fw-bolder text-uppercase">
           SIWES GUIDE
         </a>
         <button
@@ -36,7 +36,7 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="/state" className="nav-link fw-bold">
+              <a href="/scienceFaculties" className="nav-link fw-bold">
                 Organization
               </a>
             </li>
@@ -51,8 +51,13 @@ export default function Navbar() {
               </a>
             </li>
             <li className="nav-item">
-              <a href="report" className="nav-link fw-bold">
+              <a href="/report" className="nav-link fw-bold">
                 Report
+              </a>
+            </li>
+            <li className="nav-item">
+              <a href="/faqs" className="nav-link fw-bold">
+                Fags
               </a>
             </li>
           </ul>

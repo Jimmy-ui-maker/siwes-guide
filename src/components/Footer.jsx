@@ -8,10 +8,11 @@ export default function Footer() {
           <div class="container">
             <div class="row gy-4">
               <div class="col-lg-5 col-12 footer-info">
-                <Link href="#" class="logo d-flex align-items-center">
+                <Link href="" class="logo d-flex align-items-center">
                   <span>SIWES GUIDELNES</span>
                 </Link>
-                <p>
+                <hr />
+                <p className="  fw-semibold">
                   Is a site developed for Computer Science Department, KASU.
                   <br />
                   To ease 300L Students on how to start and end there 300L
@@ -30,28 +31,43 @@ export default function Footer() {
                 <ul>
                   <li>
                     <i class="bi bi-chevron-right"></i>{" "}
-                    <Link href="/">Home</Link>
+                    <Link href="/" className=" nav-link fw-semibold">
+                      Home
+                    </Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>{" "}
-                    <Link href="/about">About us</Link>
+                    <Link href="/about" className=" nav-link fw-semibold">
+                      About us
+                    </Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <Link href="/state">Organizations</Link>
+                    <Link
+                      href="/scienceFaculties"
+                      className=" nav-link fw-semibold"
+                    >
+                      Organizations
+                    </Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>{" "}
-                    <Link href="/logBooks">Log Book</Link>
+                    <Link href="/logBooks" className=" nav-link fw-semibold">
+                      Log Book
+                    </Link>
                   </li>
 
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <Link href="/supervisors">Supervisors</Link>
+                    <Link href="/projects" className=" nav-link fw-semibold">
+                      Projects
+                    </Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <Link href="/report">Report</Link>
+                    <Link href="/report" className=" nav-link fw-semibold">
+                      Report
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -61,34 +77,46 @@ export default function Footer() {
                 <ul>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <Link href="">Hair Dredlug</Link>
+                    <Link href="" className=" nav-link fw-semibold">
+                      Hair Dredlug
+                    </Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <Link href="">Saloon</Link>
+                    <Link href="" className=" nav-link fw-semibold">
+                      Saloon
+                    </Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <Link href="">Fingers Stuffs</Link>
+                    <Link href="" className=" nav-link fw-semibold">
+                      Fingers Stuffs
+                    </Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <Link href="">Eye things</Link>
+                    <Link href="" className=" nav-link fw-semibold">
+                      Eye things
+                    </Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <Link href="">Hair Sewing</Link>
+                    <Link href="" className=" nav-link fw-semibold">
+                      Hair Sewing
+                    </Link>
                   </li>
                   <li>
                     <i class="bi bi-chevron-right"></i>
-                    <Link href="">Hair Sewing</Link>
+                    <Link href="" className=" nav-link fw-semibold">
+                      Hair Sewing
+                    </Link>
                   </li>
                 </ul>
               </div>
 
               <div class="col-lg-3 col-12 footer-contact text-center text-md-start">
                 <h4>Contact Us</h4>
-                <p>
+                <p className=" nav-link fw-semibold">
                   Kongo Zaria <br />
                   Kaduna State
                   <br />

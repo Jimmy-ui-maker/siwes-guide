@@ -4,7 +4,7 @@ export default function page() {
   return (
     <section
       id="about"
-      className="maincard d-flex flex-column justify-content-center align-items-center"
+      className="maincard pb-4 d-flex flex-column justify-content-center align-items-center"
     >
       <div className="container">
         <div className="row text-center justify-content-center align-items-center">
